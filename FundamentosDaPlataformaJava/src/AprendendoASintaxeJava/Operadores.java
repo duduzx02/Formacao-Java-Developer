@@ -33,7 +33,16 @@ public class Operadores {
         numero = -numero;
         System.out.println(numero);
         numero = numero * - 1;
+
+        System.out.println("Operadores de incremento e decremento");
         System.out.println(numero++);
         System.out.println(++numero);
+        System.out.println(numero--);
+        System.out.println(--numero);
+
+        System.out.println("Operador de negação!");
+
+        boolean verdadeira = true;
+        System.out.println(!verdadeira);
     }
 }
