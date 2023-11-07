@@ -1,3 +1,5 @@
+package AprendendoASintaxeJava;
+
 public class ConstantesEVariaveis {
     public static void main(String[] args) {
 
