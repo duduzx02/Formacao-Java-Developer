@@ -1,4 +1,4 @@
-package AprendendoASintaxeJava;
+package AprendendoASintaxeJava.Operadores;
 
 public class OperadoresRelacionais {
     public static void main(String[] args) {

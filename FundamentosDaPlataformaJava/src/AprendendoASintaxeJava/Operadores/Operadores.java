@@ -1,4 +1,4 @@
-package AprendendoASintaxeJava;
+package AprendendoASintaxeJava.Operadores;
 
 import java.util.Date;
 
