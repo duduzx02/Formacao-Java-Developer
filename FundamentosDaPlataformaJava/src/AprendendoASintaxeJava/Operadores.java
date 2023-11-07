@@ -25,5 +25,15 @@ public class Operadores {
         System.out.println("divisao: " + divisao);
         System.out.println("modulo: " + modulo);
         System.out.println("resultado: " + resultado);
+
+        System.out.println("Operador unário!!");
+
+        int numero = 5;
+
+        numero = -numero;
+        System.out.println(numero);
+        numero = numero * - 1;
+        System.out.println(numero++);
+        System.out.println(++numero);
     }
 }
