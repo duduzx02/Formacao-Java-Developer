@@ -12,6 +12,21 @@ public class ConstantesEVariaveis {
         int numeroUm = 1;
         int longo = 1;
 
+        String meuNomw = "Eduardo";
+        int anoFabricacao = 2022;
+        boolean verdadeiraOuFalsa = true;
+        verdadeiraOuFalsa = false;
 
+        String nome = "Eduardo";
+        String sobrenome = "Lima";
+
+        String nomeCompleto = nomeCompleto(nome, sobrenome);
+
+        System.out.println(nomeCompleto);
+
+    }
+
+    public static String nomeCompleto(String nome, String sobrenome){
+        return nome.concat(" ").concat(sobrenome);
     }
 }
