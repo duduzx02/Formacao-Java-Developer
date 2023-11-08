@@ -1,5 +1,6 @@
 package AprendendoASintaxeJava.SmatTV;
 
+
 public class Tv {
     boolean ligada = false;
     int canal = 1;
