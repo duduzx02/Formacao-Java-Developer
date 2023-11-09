@@ -1,3 +1,5 @@
+package AprendendoASintaxeJava;
+
 public class JavaDoc {
     /**
      *
