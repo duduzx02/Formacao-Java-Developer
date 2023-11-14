@@ -4,8 +4,18 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class ProcessoSeletivo {
     public static void main(String[] args) {
-        selecaoCandidatos();
+  //      selecaoCandidatos();
+        imprimirSelecionados();
     }
+
+    static void imprimirSelecionados(){
+        String[] candidatos = {"FELIPE", "MARCIA", "JULIA", "PAULO", "AUGUSTO"};
+
+        for (String candidato: candidatos) {
+            System.out.println(candidato);
+        }
+    }
+
     static void selecaoCandidatos () {
 
             String[] candidatos = {"FELIPE", "MARCIA", "JULIA", "PAULO", "AUGUSTO", "MONICA", "FABRICIO", "MIRELA",
