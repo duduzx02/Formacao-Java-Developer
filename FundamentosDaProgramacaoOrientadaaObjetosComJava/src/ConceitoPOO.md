@@ -27,3 +27,19 @@
 - Classe utilitária (util) classe que contém recursos comuns à toda nossa aplicação.
 - ![img.png](img.png)
 - ![img_1.png](img_1.png)
+
+# Pacotes
+- Model
+- - Classes que representam a camada e modelo da aplicação
+- Repository
+- - Classes ou interfaces que possuem a finalidade de interagir com tabelas no banco de dados: ClienteRepository
+- Service
+- - Classes que contém regras de negócio do sistema: ClienteService
+- - possui o método validar o CPF do cliente cadastrado
+- Controller
+- - Classes que possuem a finalidade de disponibilizar os nossos recursos da aplicação para outras aplicações vida 
+    padrão HTTP
+- View 
+- - Classes que possuem alguma interação com a interface gráfica acessada pelo usuário
+- util
+- - Pacote que contém classes utilitárias dos sistema: Validadorutil
