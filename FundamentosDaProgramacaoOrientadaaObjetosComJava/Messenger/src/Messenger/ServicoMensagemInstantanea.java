@@ -1,6 +1,6 @@
 package Messenger;
 
-public class MSNMessenger {
+public abstract class ServicoMensagemInstantanea {
     public void enviarMensagem(){
         validarConectadoInternet();
         System.out.println("ENVIANDO MENSAGEM!");
