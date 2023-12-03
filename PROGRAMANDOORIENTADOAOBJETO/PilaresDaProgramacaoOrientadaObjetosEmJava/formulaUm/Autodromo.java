@@ -9,6 +9,7 @@ public class Autodromo {
         ferrari.ligar();
 
         mt09.setChassi("5874981");
+        mt09.ligar();
 
     }
 }

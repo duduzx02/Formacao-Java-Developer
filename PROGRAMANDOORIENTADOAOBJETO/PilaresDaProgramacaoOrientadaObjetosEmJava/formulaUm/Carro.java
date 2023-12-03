@@ -2,7 +2,6 @@ package formulaUm;
 
 public class Carro extends Veiculo{
 
-
     public void ligar(){
         confereCombustivel();
         confereCambio();
