@@ -5,4 +5,9 @@ public class MSN extends ServicoMensagemInstantanea{
     public void enviarMensagem() {
         System.out.println("ENVIANDO MENSAGEM PELO MSN!");
     }
+
+    @Override
+    public void receberMensagem() {
+        System.out.println("RECEBENDO MENSAGEM PELO MSN");
+    }
 }

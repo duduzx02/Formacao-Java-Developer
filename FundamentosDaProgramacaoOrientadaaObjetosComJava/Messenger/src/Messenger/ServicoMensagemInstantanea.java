@@ -1,15 +1,10 @@
 package Messenger;
 
 public abstract class ServicoMensagemInstantanea {
-    public void enviarMensagem(){
-        validarConectadoInternet();
-        System.out.println("ENVIANDO MENSAGEM!");
-        salvarHistoriacoMensagem();
-    }
+    public abstract void enviarMensagem();
 
-    public void receberMensagem(){
-        System.out.println("RECEBENDO MENSAGEM!");
-    }
+    public abstract void receberMensagem();
+
     private void validarConectadoInternet(){
         System.out.println("VALIDANDO SE ESTÁ CONECTADO A INTERNET!");
     }
