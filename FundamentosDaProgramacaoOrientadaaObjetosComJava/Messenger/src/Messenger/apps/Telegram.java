@@ -1,11 +1,10 @@
-package Messenger;
+package Messenger.apps;
 
-import java.sql.SQLOutput;
-
-public class Telegram extends ServicoMensagemInstantanea{
+public class Telegram extends ServicoMensagemInstantanea {
 
     @Override
     public void enviarMensagem() {
+        validarConectadoInternet();
         System.out.println("ENVIANDO MENSAGEM PELO TELEGRAM!!");
     }
 
