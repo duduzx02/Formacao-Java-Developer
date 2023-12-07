@@ -1,3 +1,6 @@
+import lombok.Data;
+
+@Data
 public class Conta {
 
     protected static final int AGENCIA_PADRAO = 1;
@@ -15,34 +18,32 @@ public class Conta {
         this.cliente = cliente;
     }
 
-
-    public int getAgencia() {
-        return agencia;
-    }
-
-    public int getConta() {
-        return conta;
-    }
-
-    public double getSaldo() {
-        return saldo;
-    }
-
-    public Cliente getCliente() {
-        return cliente;
-    }
-
     public void sacar(double valor){
-        saldo -= valor;
+        if (saldo >= valor){
+            saldo -= valor;
+            System.out.println("Saque realizado com sucesso!");
+        }else {
+            System.out.println("Você tentou sacar, porem!");
+            System.out.println("Saldo insuficiente!");
+        }
+
     }
 
     public void depositar(double valor){
         saldo += valor;
+        System.out.println("Deposito realizado com sucesso!!");
     }
 
     public void transferir(double valor, Conta contaDestino){
-        this.sacar(valor);
-        contaDestino.depositar(valor);
+        if(saldo >= valor){
+            this.sacar(valor);
+            contaDestino.depositar(valor);
+            System.out.println("Transferencia realizada com sucesso!!");
+        } else {
+            System.out.println("Você tentou tranferir! porem...");
+            System.out.println("Saldo infuciente!");
+        }
+
     }
 
     protected void imprimirExtrato(){

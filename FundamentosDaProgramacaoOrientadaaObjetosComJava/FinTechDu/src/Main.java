@@ -9,15 +9,18 @@ public class Main {
 
 
         cc.depositar(100);
-        poupanca.depositar(52);
+        poupanca.depositar(50);
 
         cc.imprimirExtrato();
         poupanca.imprimirExtrato();
 
-        cc.transferir(22, poupanca);
+        cc.transferir(25, poupanca);
 
         cc.imprimirExtrato();
         poupanca.imprimirExtrato();
+        cc.sacar(100);
+
+        cc.imprimirExtrato();
 
     }
 }
