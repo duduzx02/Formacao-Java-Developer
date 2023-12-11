@@ -1,3 +1,5 @@
+package dio.digital;
+
 public class Dev {
 
     private String nome;

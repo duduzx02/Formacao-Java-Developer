@@ -1,8 +1,9 @@
-public class Curso {
+package dio.digital;
+
+public abstract class ConteudoEducacional {
 
     private String titulo;
     private String descricao;
-    private int cargaHoraria;
 
     public String getTitulo() {
         return titulo;
@@ -18,13 +19,5 @@ public class Curso {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
-    }
-
-    public int getCargaHoraria() {
-        return cargaHoraria;
-    }
-
-    public void setCargaHoraria(int cargaHoraria) {
-        this.cargaHoraria = cargaHoraria;
     }
 }

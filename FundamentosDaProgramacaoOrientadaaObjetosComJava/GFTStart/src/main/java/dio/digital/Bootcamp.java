@@ -1,3 +1,5 @@
+package dio.digital;
+
 import java.util.List;
 
 public class Bootcamp {
