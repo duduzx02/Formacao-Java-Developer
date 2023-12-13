@@ -1,25 +1,14 @@
 package dio.digital;
 
+import lombok.Data;
+
 import java.util.List;
 
+@Data
 public class Bootcamp {
 
     private String nome;
+    private List<ConteudoEducacional> conteudos;
     private List<Dev> devs;
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public List<Dev> getDevs() {
-        return devs;
-    }
-
-    public void setDevs(List<Dev> devs) {
-        this.devs = devs;
-    }
 }
