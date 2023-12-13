@@ -19,4 +19,14 @@ public abstract class FuncionarioCLT {
         this.valorSalario = valorSalario;
         this.endereco = endereco;
     }
+
+    @Override
+    public String toString() {
+        return "FuncionarioCLT{" +
+                "nome='" + nome + '\'' +
+                ", documento='" + documento + '\'' +
+                ", valorSalario=" + valorSalario +
+                ", endereco=" + endereco +
+                '}';
+    }
 }
