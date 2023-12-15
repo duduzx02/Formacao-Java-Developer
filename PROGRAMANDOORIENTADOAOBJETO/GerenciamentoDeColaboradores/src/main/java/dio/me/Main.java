@@ -1,7 +1,9 @@
-import dio.me.Endereco;
-import dio.me.Gerente;
-import dio.me.OperadorDeCaixa;
-import dio.me.Vendedor;
+package dio.me;
+
+import dio.me.models.Endereco;
+import dio.me.models.Gerente;
+import dio.me.models.OperadorDeCaixa;
+import dio.me.models.Vendedor;
 
 public class Main {
 

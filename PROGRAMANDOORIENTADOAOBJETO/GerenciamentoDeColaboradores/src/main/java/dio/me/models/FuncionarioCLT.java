@@ -1,4 +1,4 @@
-package dio.me;
+package dio.me.models;
 
 import lombok.Data;
 

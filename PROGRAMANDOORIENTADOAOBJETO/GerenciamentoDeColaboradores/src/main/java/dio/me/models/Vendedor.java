@@ -1,6 +1,6 @@
-package dio.me;
+package dio.me.models;
 
-public class Vendedor extends FuncionarioCLT implements CalculaBonificacao{
+public class Vendedor extends FuncionarioCLT implements CalculaBonificacao {
 
     private Double valorBonificacao;
 
@@ -13,13 +13,7 @@ public class Vendedor extends FuncionarioCLT implements CalculaBonificacao{
 
     @Override
     public String toString() {
-        return "Vendedor{" +
-                "valorBonificacao=" + valorBonificacao +
-                ", nome='" + nome + '\'' +
-                ", documento='" + documento + '\'' +
-                ", valorSalario=" + valorSalario +
-                ", endereco=" + endereco.getRua() +
-                '}';
+        return "Vendedor{" + "valorBonificacao=" + valorBonificacao + ", nome='" + nome + '\'' + ", documento='" + documento + '\'' + ", valorSalario=" + valorSalario + ", endereco=" + endereco.getRua() + '}';
     }
 
     @Override

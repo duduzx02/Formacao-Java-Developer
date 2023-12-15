@@ -1,4 +1,4 @@
-package dio.me;
+package dio.me.models;
 
 import lombok.Data;
 
@@ -9,7 +9,7 @@ public class Endereco {
     private String complemento;
     private String bairro;
 
-    public Endereco( ) {
+    public Endereco() {
     }
 
     public Endereco(String rua, String complemento, String bairro) {

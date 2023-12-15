@@ -1,6 +1,9 @@
-package dio.me;
+package dio.me.models;
 
-public class OperadorDeCaixa extends FuncionarioCLT{
+import dio.me.models.Endereco;
+import dio.me.models.FuncionarioCLT;
+
+public class OperadorDeCaixa extends FuncionarioCLT {
     public OperadorDeCaixa() {
 
     }

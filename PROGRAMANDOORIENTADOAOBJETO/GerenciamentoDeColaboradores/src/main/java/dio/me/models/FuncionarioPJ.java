@@ -1,4 +1,4 @@
-package dio.me;
+package dio.me.models;
 
 import lombok.Data;
 
@@ -20,7 +20,7 @@ public abstract class FuncionarioPJ {
         this.valorDaHora = valorDaHora;
     }
 
-    public void calculaRemuneracao(){
+    public void calculaRemuneracao() {
         this.valorRemuneracao = this.valorDaHora * this.horasTrabalhadas;
     }
 }
