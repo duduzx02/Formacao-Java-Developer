@@ -1,6 +1,6 @@
 package dio.me;
 
-public class Vendedor extends FuncionarioCLT{
+public class Vendedor extends FuncionarioCLT implements CalculaBonificacao{
 
     private Double valorBonificacao;
 
@@ -20,5 +20,10 @@ public class Vendedor extends FuncionarioCLT{
                 ", valorSalario=" + valorSalario +
                 ", endereco=" + endereco.getRua() +
                 '}';
+    }
+
+    @Override
+    public void calculaBonificacao(Double porcentagemBonificacao) {
+        this.valorBonificacao = this.valorSalario * (porcentagemBonificacao / 100d);
     }
 }
