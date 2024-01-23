@@ -11,7 +11,7 @@ public class Pilha {
     public void push(No novoNo){
         No refAuxiliar = refNoEntradaPilha;
         refNoEntradaPilha = novoNo;
-        refNoEntradaPilha.setRef(refNoEntradaPilha);
+        refNoEntradaPilha.setRef(refAuxiliar);
     }
 
     public No pop(){
@@ -30,4 +30,26 @@ public class Pilha {
     public boolean isEmpty(){
         return refNoEntradaPilha == null ? true : false;
     }
+
+    @Override
+    public String toString(){
+        String stringRetorna = "---------------\n";
+        stringRetorna += "      Pilha\n";
+        stringRetorna += "---------------\n";
+
+        No noAuxiliar = refNoEntradaPilha;
+
+        while (true) {
+            if (noAuxiliar != null) {
+                stringRetorna += "[No{dados= " + noAuxiliar.getDado() + "}]\n";
+                noAuxiliar = noAuxiliar.getRef();
+            } else {
+                break;
+            }
+        }
+
+        stringRetorna += "===============\n";
+        return stringRetorna;
+    }
+
 }
