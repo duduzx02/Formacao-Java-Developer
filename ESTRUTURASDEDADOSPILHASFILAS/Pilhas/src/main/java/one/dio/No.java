@@ -1,22 +1,22 @@
 package one.dio;
 
-public class No {
+public class No<T>{
 
-    private int dado;
+    private T dado;
     private No ref = null;
 
     public No() {
     }
 
-    public No(int dado) {
+    public No(T dado) {
         this.dado = dado;
     }
 
-    public int getDado() {
+    public T getDado() {
         return dado;
     }
 
-    public void setDado(int dado) {
+    public void setDado(T dado) {
         this.dado = dado;
     }
 

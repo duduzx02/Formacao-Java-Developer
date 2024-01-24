@@ -3,7 +3,7 @@ package one.dio;
 public class Main {
     public static void main(String[] args) {
 
-        Pilha minhaPilha = new Pilha();
+        Pilha<Integer> minhaPilha = new Pilha<>();
 
         minhaPilha.push(1);
         minhaPilha.push(2);

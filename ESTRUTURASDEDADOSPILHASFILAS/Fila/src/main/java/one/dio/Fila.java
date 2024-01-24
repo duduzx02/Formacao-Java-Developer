@@ -1,20 +1,20 @@
 package one.dio;
 
-public class Fila {
+public class Fila<T> {
 
-    private No refNoEntrada;
+    private No<T> refNoEntrada;
 
     public Fila(){
         this.refNoEntrada = null;
     }
 
-    public void enqueue(Object obj){
+    public void enqueue(T obj){
         No novoNo = new No(obj);
         novoNo.setRefNo(refNoEntrada);
         refNoEntrada = novoNo;
     }
 
-    public Object first(){
+    public T first(){
         if(!this.isEmpty()){
             No primeiroNo = refNoEntrada;
             while(true){
@@ -24,7 +24,7 @@ public class Fila {
                     break;
                 }
             }
-            return primeiroNo;
+            return (T) primeiroNo.getObject();
         }
         return null;
     }
@@ -33,7 +33,7 @@ public class Fila {
         return refNoEntrada == null ? true : false;
     }
 
-    public Object dequeue(){
+    public T dequeue(){
         if(!this.isEmpty()){
             No primeiroNo = refNoEntrada;
             No noAuxiliar = refNoEntrada;
@@ -46,7 +46,7 @@ public class Fila {
                     break;
                 }
             }
-            return primeiroNo;
+            return (T) primeiroNo.getObject();
         }
         return null;
     }

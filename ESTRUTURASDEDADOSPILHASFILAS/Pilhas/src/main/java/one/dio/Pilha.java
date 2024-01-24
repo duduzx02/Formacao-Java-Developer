@@ -1,14 +1,14 @@
 package one.dio;
 
-public class Pilha {
+public class Pilha <T>{
 
-    private No refNoEntradaPilha;
+    private No<T> refNoEntradaPilha;
 
     public Pilha() {
         this.refNoEntradaPilha = null;
     }
 
-    public void push(int no){
+    public void push(T no){
 		No novoNo = new No(no);
         No refAuxiliar = refNoEntradaPilha;
         refNoEntradaPilha = novoNo;
