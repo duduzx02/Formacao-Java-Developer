@@ -5,12 +5,12 @@ public class Main {
 
         Pilha minhaPilha = new Pilha();
 
-        minhaPilha.push(new No(1));
-        minhaPilha.push(new No(2));
-        minhaPilha.push(new No(3));
-        minhaPilha.push(new No(4));
-        minhaPilha.push(new No(5));
-        minhaPilha.push(new No(6));
+        minhaPilha.push(1);
+        minhaPilha.push(2);
+        minhaPilha.push(3);
+        minhaPilha.push(4);
+        minhaPilha.push(5);
+        minhaPilha.push(6);
         System.out.println("A pilha está vazia? " + minhaPilha.isEmpty());
 
         System.out.println(minhaPilha);
@@ -19,7 +19,7 @@ public class Main {
 
         System.out.println(minhaPilha.pop());
         System.out.println(minhaPilha);
-        minhaPilha.push(new No(89));
+        minhaPilha.push(89);
 
         System.out.println(minhaPilha);
 

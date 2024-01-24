@@ -8,7 +8,8 @@ public class Pilha {
         this.refNoEntradaPilha = null;
     }
 
-    public void push(No novoNo){
+    public void push(int no){
+		No novoNo = new No(no);
         No refAuxiliar = refNoEntradaPilha;
         refNoEntradaPilha = novoNo;
         refNoEntradaPilha.setRef(refAuxiliar);
