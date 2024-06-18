@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c2f03b6-b16a-48d7-9753-1ada82321d67" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../01FUNDAMENTOSDAPLATAFORMA/Resumos/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01FUNDAMENTOSDAPLATAFORMA/Resumos/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01FUNDAMENTOSDAPLATAFORMA/Resumos/IntroducaoAPlataformaJava.md" beforeDir="false" afterPath="$PROJECT_DIR$/../01FUNDAMENTOSDAPLATAFORMA/Resumos/IntroducaoAPlataformaJava.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/FundamentosDaPlataformaJava.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/out/production/FundamentosDaPlataformaJava/AprendendoASintaxeJava/BoletimEstudantil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/out/production/FundamentosDaPlataformaJava/AprendendoASintaxeJava/ConstantesEVariaveis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/out/production/FundamentosDaPlataformaJava/AprendendoASintaxeJava/IntroducaoAPlataformaJava.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/out/production/FundamentosDaPlataformaJava/AprendendoASintaxeJava/JavaDoc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/out/production/FundamentosDaPlataformaJava/AprendendoASintaxeJava/MediaComPeso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/out/production/FundamentosDaPlataformaJava/AprendendoASintaxeJava/MinhaClasse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/out/production/FundamentosDaPlataformaJava/AprendendoASintaxeJava/Operadores/Operadores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/out/production/FundamentosDaPlataformaJava/AprendendoASintaxeJava/Operadores/OperadoresRelacionais.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/out/production/FundamentosDaPlataformaJava/AprendendoASintaxeJava/Operadores/Ternario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/out/production/FundamentosDaPlataformaJava/AprendendoASintaxeJava/SmatTV/Tv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/out/production/FundamentosDaPlataformaJava/AprendendoASintaxeJava/SmatTV/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/out/production/FundamentosDaPlataformaJava/AprendendoASintaxeJava/TiposVariaveis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/src/AprendendoASintaxeJava/BoletimEstudantil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/src/AprendendoASintaxeJava/ConstantesEVariaveis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/src/AprendendoASintaxeJava/IntroducaoAPlataformaJava.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/src/AprendendoASintaxeJava/JavaDoc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/src/AprendendoASintaxeJava/MediaComPeso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/src/AprendendoASintaxeJava/MinhaClasse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/src/AprendendoASintaxeJava/Operadores/Operadores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/src/AprendendoASintaxeJava/Operadores/OperadoresRelacionais.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/src/AprendendoASintaxeJava/Operadores/Ternario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/src/AprendendoASintaxeJava/SmatTV/Tv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/src/AprendendoASintaxeJava/SmatTV/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUNDAMENTOSDAPLATAFORMA/FundamentosDaPlataformaJava/src/AprendendoASintaxeJava/TiposVariaveis.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2i2N3EWfsealZ7dZ19Hf8bM719e" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Eduardo Lima/OneDrive/Área de Trabalho/JAVA/DIO/FormacaoJavaDeveloper/ESTRUTURADEDADOS"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c2f03b6-b16a-48d7-9753-1ada82321d67" name="Changes" comment="" />
+      <created>1718684511348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718684511348</updated>
+    </task>
+    <servers />
+  </component>
+</project>
