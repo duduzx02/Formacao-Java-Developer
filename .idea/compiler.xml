@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ResolvendoDesafioDeFundamentos" />
+        <module name="Arvores" />
+        <module name="AtribuicaoEReferencia" />
+        <module name="meu-projeto" />
+        <module name="Fila" />
+        <module name="Pilhas" />
+        <module name="GFTStart" />
+        <module name="GerenciamentoDeColaboradores" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
