@@ -1,5 +1,5 @@
 package Abstracao;
 
-abstract class Animal {
-    abstract void emitirSom();
+public interface Animal {
+    public void emitirSom();
 }
