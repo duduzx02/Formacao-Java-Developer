@@ -7,3 +7,7 @@
 - **Concisa e legível:** Reduz a quantidade de código necessária para realizar operações comuns.;
 - **Paralelismo:** Facilita a execução de operações em paralelo.
 - **Imutabilidade:** As streams não modificam as fontes dos dados, mas produzem novos resultados.
+
+## Programação Imperativa
+- Na programação imperativa, você descreve como o programa deve atingir um determiado resultado. Foca-se no controle 
+  explícito do fluxo de execução.
