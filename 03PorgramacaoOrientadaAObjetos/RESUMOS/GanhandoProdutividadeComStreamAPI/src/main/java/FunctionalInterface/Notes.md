@@ -8,3 +8,6 @@
 
 ## Function<T,R>
 - Representa uma função que aceita um argumento de entrada e produz um resultado.
+
+## Predicate<T>
+- Representa uma função que aceita um único argumento de entrada e retorna um valor booleano.
