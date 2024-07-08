@@ -11,3 +11,7 @@
 ## Programação Imperativa
 - Na programação imperativa, você descreve como o programa deve atingir um determiado resultado. Foca-se no controle 
   explícito do fluxo de execução.
+
+## Programação Declarativa
+- Na programação declarativa, você descreve o que deseja alancaçar, sem especificar os detalhes de como isso deve 
+  ser feito.
