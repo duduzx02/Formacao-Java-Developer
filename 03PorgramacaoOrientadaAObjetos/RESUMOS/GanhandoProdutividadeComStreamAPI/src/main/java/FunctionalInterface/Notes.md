@@ -5,3 +5,6 @@
 
 ## Supplier<T>
 - Representa uma função que não aceita nenhum argumento e fornece um resultado.
+
+## Function<T,R>
+- Representa uma função que aceita um argumento de entrada e produz um resultado.
