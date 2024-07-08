@@ -11,3 +11,7 @@
 
 ## Predicate<T>
 - Representa uma função que aceita um único argumento de entrada e retorna um valor booleano.
+
+## BinaryOperator<T>
+- É um subinterface do ´BiFunction<T, T, T>´ e representa uma operação sobre dois operandos do mesmo tipo, 
+  produzindo um resiltado do mesmo tipo.
