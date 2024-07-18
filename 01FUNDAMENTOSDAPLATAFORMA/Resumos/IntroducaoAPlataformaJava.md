@@ -23,182 +23,55 @@
 - A linguagem se popularizou pelo termo "Write Once, Run anywhere", que enaltece a interoperabilidade da plataforma 
   java.
 
-### Os Pilares da Orientação a Objetos
+1. Os Quatro Pilares da Orientação a Objetos
+   Abstração:
+   Abstração é o processo de esconder os detalhes de implementação de um objeto e expor apenas a funcionalidade essencial. Isso é alcançado através do uso de classes e interfaces. Em Java, você pode criar uma classe abstrata ou uma interface que define métodos abstratos que devem ser implementados pelas subclasses concretas.
 
+Polimorfismo:
+Polimorfismo permite que uma entidade (como uma variável, função ou objeto) possa se comportar de diferentes formas. Em Java, isso é obtido através da sobrecarga de métodos (compile-time polymorphism) e do uso de herança e interfaces (runtime polymorphism). O polimorfismo permite que você escreva código mais flexível e reutilizável.
 
+Herança:
+Herança é o mecanismo pelo qual uma classe pode herdar características (atributos e métodos) de outra classe. A classe que herda é chamada de subclasse ou classe derivada, e a classe da qual ela herda é chamada de superclasse ou classe base. Em Java, a herança é implementada usando a palavra-chave extends. Isso permite a reutilização de código e a criação de uma hierarquia de classes.
 
-A orientação a objetos é um paradigma de programação que se baseia em conceitos que permitem a criação de sistemas complexos de maneira organizada e modular. Os quatro pilares fundamentais desse paradigma são:
+Encapsulamento:
+Encapsulamento é o processo de agrupar dados e métodos que operam sobre esses dados em uma única unidade ou classe, e esconder os detalhes internos do objeto dos usuários do objeto. Em Java, isso é feito usando modificadores de acesso (como private, protected e public). O encapsulamento melhora a modularidade e a segurança do código.
 
+2. Funcionalidades da Linguagem Java
+   Fortemente Tipada:
+   Java é uma linguagem fortemente tipada, o que significa que todas as variáveis devem ser declaradas com um tipo específico e não podem mudar para um tipo diferente durante a execução do programa. Isso ajuda a detectar erros de tipo em tempo de compilação.
 
+Máquina Virtual Java (JVM):
+Java possui uma máquina virtual chamada JVM (Java Virtual Machine), que permite que o código Java seja executado em qualquer plataforma que tenha uma JVM. A JVM converte o bytecode em código de máquina nativo da plataforma.
 
-1. **Abstração**:
+Suporte ao Paradigma Orientado a Objetos:
+Java é uma linguagem orientada a objetos, o que significa que ela suporta conceitos como classes, objetos, herança, polimorfismo, encapsulamento e abstração.
 
-A abstração permite que os desenvolvedores criem modelos simplificados da realidade. Em Java, isso é realizado através de classes e interfaces que definem o comportamento e as propriedades essenciais dos objetos, escondendo os detalhes desnecessários.
+Suporte ao Paradigma Funcional:
+Java também suporta o paradigma funcional desde a introdução das expressões lambda no Java 8. Isso permite que os desenvolvedores escrevam código mais conciso e expressivo.
 
+3. Primeiro Nome do Java
+   Antes de se chamar Java, a linguagem foi inicialmente nomeada Oak. O nome foi mudado para Java devido a questões de marca registrada.
 
+4. Bytecode
+   O código gerado pela compilação de um programa Java é chamado de bytecode. O bytecode é independente de plataforma e pode ser executado em qualquer sistema que tenha uma JVM.
 
-  ```java
+5. Empresa Original
+   A linguagem Java foi inicialmente desenvolvida e mantida pela Sun Microsystems. Em 2010, a Oracle Corporation adquiriu a Sun Microsystems e assumiu a manutenção da linguagem Java.
 
-  abstract class Animal {
+6. Linguagens que Influenciaram o Java
+   Java é baseada em várias linguagens de programação, principalmente C e C++. A sintaxe de Java é fortemente inspirada por C++, mas Java removeu muitos recursos complexos e propensos a erros de C++.
 
-    abstract void makeSound();
+7. Desenvolvedor Líder
+   James Gosling é o desenvolvedor que liderou o projeto para a criação da linguagem Java. Ele é conhecido como o "Pai do Java".
 
-  }
+8. JVM, JDK e JRE
+   Para executar uma aplicação desenvolvida em Java, convertendo bytecode em código de máquina, é necessário ter disponível no sistema operacional o recurso denominado JVM (Java Virtual Machine). A JVM faz parte do JDK (Java Development Kit) e do JRE (Java Runtime Environment).
 
+9. Execuções Paralelas
+   O conceito de execuções paralelas em uma aplicação é chamado de multi-threading. Em Java, isso é implementado usando a classe Thread e a interface Runnable.
 
-
-  class Dog extends Animal {
-
-    @Override
-
-    void makeSound() {
-
-      System.out.println("Woof");
-
-    }
-
-  }
-
-  ```
-
-
-
-2. **Encapsulamento**:
-
-O encapsulamento é a prática de esconder os detalhes internos de um objeto e expor apenas o que é necessário através de métodos públicos. Isso melhora a modularidade e a segurança do código.
-
-
-
-  ```java
-
-  class Person {
-
-    private String name;
-
-    private int age;
-
-
-
-    public String getName() {
-
-      return name;
-
-    }
-
-
-
-    public void setName(String name) {
-
-      this.name = name;
-
-    }
-
-
-
-    public int getAge() {
-
-      return age;
-
-    }
-
-
-
-    public void setAge(int age) {
-
-      if (age > 0) {
-
-        this.age = age;
-
-      }
-
-    }
-
-  }
-
-  ```
-
-
-
-3. **Herança**:
-
-A herança permite que uma classe herde propriedades e métodos de outra classe. Isso promove a reutilização de código e a criação de hierarquias de classes.
-
-
-
-  ```java
-
-  class Animal {
-
-    void eat() {
-
-      System.out.println("This animal eats food");
-
-    }
-
-  }
-
-
-
-  class Cat extends Animal {
-
-    void meow() {
-
-      System.out.println("Meow");
-
-    }
-
-  }
-
-  ```
-
-
-
-4. **Polimorfismo**:
-
-O polimorfismo permite que objetos de diferentes classes sejam tratados como objetos da mesma classe através de uma interface comum. Isso é útil para a implementação de comportamentos específicos em subclasses sem alterar o código que as utiliza.
-
-
-
-  ```java
-
-  class Animal {
-
-    void makeSound() {
-
-      System.out.println("Some sound");
-
-    }
-
-  }
-
-
-
-  class Dog extends Animal {
-
-    @Override
-
-    void makeSound() {
-
-      System.out.println("Woof");
-
-    }
-
-  }
-
-
-
-  class Cat extends Animal {
-
-    @Override
-
-    void makeSound() {
-
-      System.out.println("Meow");
-
-    }
-
-  }
-
+10. Popularidade do Java
+    A linguagem Java se popularizou pelo conceito "Write Once, Run Anywhere" (Escreva uma vez, execute em qualquer lugar), que destaca a capacidade de interoperabilidade da plataforma Java. Isso significa que um programa Java pode ser executado em qualquer plataforma que tenha uma JVM, sem a necessidade de recompilação. Esse recurso foi um grande diferencial que contribuiu significativamente para a popularidade da linguagem.
 
 
   public class TestPolymorphism {
