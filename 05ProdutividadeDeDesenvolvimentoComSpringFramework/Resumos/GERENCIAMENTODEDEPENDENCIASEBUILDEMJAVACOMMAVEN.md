@@ -1,0 +1,22 @@
+- Quando o Maven executa algum tarefa e não encontra a dependência no repositório local o que acontece ?
+- - Quando o Maven executa uma tarefa e não encontra a dependência no repositório local, o Maven busca a dependência 
+    em um repositório remoto e faz o download, armazenando o componente no repositório local.
+- Quais são os três ciclos de vida integrados do Maven para construir e distribuir um projeto?
+- - Os três ciclos de vida integrados do Maven para construir e distribuir um projeto são: default, compile, site.
+- Quais são os escopos de dependência que existem ? Qual é o escopo padrão ?
+- - Os escopos são compile, provided, runtime, test, system, import. O escopo padrão é compile.
+- O que são repositórios para o Maven ?
+- - Um repositório no Maven contém artefatos de construção e deependências de vaários tipos.
+- Sobre o pom.xml é incorretor afirmar que:
+- - É um arquivo de configuração do Mavem.
+- Quais são os comandos para testar, empacotar, compilar e limpar o projeto, respectivamente?
+- - mvn teste, mvn package, mvn compile e mvn clean 
+- Qual comando no maven possibilita verificar dependências que não estão sendo utilizadas?
+- - mvn dependency:analyze
+- Qual o nome dado para dependências que são herdads indiretamente quando passamos a utilizar um novo componente?
+- - Dependências transitivas.
+- O que é o Maven?
+- - Ferramenta para gerencias build e dependências de um projeto.
+- O Maven proporciona uma forma automatizada de criar projetos. Qual o nome do recurso e comando é utilizado para 
+  executar esta tarefa?
+- - O recurso é Maven Archetypes. O comando é mvn archetype:generate
