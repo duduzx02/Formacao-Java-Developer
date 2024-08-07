@@ -74,4 +74,4 @@ Testar software é essencial por diversas razões:
 Os testes de software desempenham um papel crucial na engenharia moderna, assegurando a qualidade, confiabilidade e 
 satisfação do cliente. A correta aplicação dos diferentes tipos de testes, alinhada com as práticas ágeis, é 
 fundamental para o sucesso de qualquer projeto de software. Assim, investir em testes é investir na qualidade e no 
-sucesso do produto final.git
+sucesso do produto final.
